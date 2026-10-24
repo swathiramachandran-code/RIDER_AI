@@ -1,0 +1,1008 @@
+{
+  "best_model": "Linear Regression",
+  "r2": 0.9819,
+  "mae": 20796.51,
+  "rmse": 30035.86,
+  "all_models": [
+    {
+      "name": "Linear Regression",
+      "r2": 0.9819,
+      "mae": 20796.51,
+      "rmse": 30035.86,
+      "cv_r2": 0.9819,
+      "cv_r2_std": 0.0014
+    },
+    {
+      "name": "Polynomial + Ridge",
+      "r2": 0.9806,
+      "mae": 21335.61,
+      "rmse": 31121.35,
+      "cv_r2": 0.9795,
+      "cv_r2_std": 0.0029
+    },
+    {
+      "name": "Random Forest Regressor",
+      "r2": 0.9287,
+      "mae": 36568.67,
+      "rmse": 59641.02,
+      "cv_r2": 0.9223,
+      "cv_r2_std": 0.0075
+    }
+  ],
+  "actual_vs_predicted": [
+    {
+      "actual": 217800.0,
+      "predicted": 248662.0
+    },
+    {
+      "actual": 579600.0,
+      "predicted": 550561.0
+    },
+    {
+      "actual": 705800.0,
+      "predicted": 647900.0
+    },
+    {
+      "actual": 475600.0,
+      "predicted": 497919.0
+    },
+    {
+      "actual": 770700.0,
+      "predicted": 788419.0
+    },
+    {
+      "actual": 577200.0,
+      "predicted": 522817.0
+    },
+    {
+      "actual": 314600.0,
+      "predicted": 336113.0
+    },
+    {
+      "actual": 484100.0,
+      "predicted": 484521.0
+    },
+    {
+      "actual": 435000.0,
+      "predicted": 418012.0
+    },
+    {
+      "actual": 612000.0,
+      "predicted": 538086.0
+    },
+    {
+      "actual": 468500.0,
+      "predicted": 495379.0
+    },
+    {
+      "actual": 212200.0,
+      "predicted": 230512.0
+    },
+    {
+      "actual": 301800.0,
+      "predicted": 284513.0
+    },
+    {
+      "actual": 401700.0,
+      "predicted": 397426.0
+    },
+    {
+      "actual": 640700.0,
+      "predicted": 604646.0
+    },
+    {
+      "actual": 69600.0,
+      "predicted": 71367.0
+    },
+    {
+      "actual": 285300.0,
+      "predicted": 266392.0
+    },
+    {
+      "actual": 164400.0,
+      "predicted": 164986.0
+    },
+    {
+      "actual": 313000.0,
+      "predicted": 340745.0
+    },
+    {
+      "actual": 235900.0,
+      "predicted": 218870.0
+    },
+    {
+      "actual": 74900.0,
+      "predicted": 83938.0
+    },
+    {
+      "actual": 276500.0,
+      "predicted": 286214.0
+    },
+    {
+      "actual": 80100.0,
+      "predicted": 78051.0
+    },
+    {
+      "actual": 173400.0,
+      "predicted": 171202.0
+    },
+    {
+      "actual": 498000.0,
+      "predicted": 489802.0
+    },
+    {
+      "actual": 410300.0,
+      "predicted": 372722.0
+    },
+    {
+      "actual": 439400.0,
+      "predicted": 404559.0
+    },
+    {
+      "actual": 550900.0,
+      "predicted": 560773.0
+    },
+    {
+      "actual": 210900.0,
+      "predicted": 230969.0
+    },
+    {
+      "actual": 472900.0,
+      "predicted": 429603.0
+    },
+    {
+      "actual": 256700.0,
+      "predicted": 250509.0
+    },
+    {
+      "actual": 385300.0,
+      "predicted": 394235.0
+    },
+    {
+      "actual": 211600.0,
+      "predicted": 230964.0
+    },
+    {
+      "actual": 359600.0,
+      "predicted": 336747.0
+    },
+    {
+      "actual": 89600.0,
+      "predicted": 83704.0
+    },
+    {
+      "actual": 371500.0,
+      "predicted": 347384.0
+    },
+    {
+      "actual": 128100.0,
+      "predicted": 125315.0
+    },
+    {
+      "actual": 138200.0,
+      "predicted": 137454.0
+    },
+    {
+      "actual": 102700.0,
+      "predicted": 100629.0
+    },
+    {
+      "actual": 146900.0,
+      "predicted": 155777.0
+    },
+    {
+      "actual": 147600.0,
+      "predicted": 155022.0
+    },
+    {
+      "actual": 258000.0,
+      "predicted": 280159.0
+    },
+    {
+      "actual": 460400.0,
+      "predicted": 486311.0
+    },
+    {
+      "actual": 104400.0,
+      "predicted": 106420.0
+    },
+    {
+      "actual": 142400.0,
+      "predicted": 123788.0
+    },
+    {
+      "actual": 177000.0,
+      "predicted": 179251.0
+    },
+    {
+      "actual": 770700.0,
+      "predicted": 747338.0
+    },
+    {
+      "actual": 168400.0,
+      "predicted": 167148.0
+    },
+    {
+      "actual": 263700.0,
+      "predicted": 286727.0
+    },
+    {
+      "actual": 547400.0,
+      "predicted": 534289.0
+    },
+    {
+      "actual": 450800.0,
+      "predicted": 433944.0
+    },
+    {
+      "actual": 186000.0,
+      "predicted": 183637.0
+    },
+    {
+      "actual": 966900.0,
+      "predicted": 973208.0
+    },
+    {
+      "actual": 474700.0,
+      "predicted": 455749.0
+    },
+    {
+      "actual": 143400.0,
+      "predicted": 150442.0
+    },
+    {
+      "actual": 564400.0,
+      "predicted": 577244.0
+    },
+    {
+      "actual": 216700.0,
+      "predicted": 200566.0
+    },
+    {
+      "actual": 303000.0,
+      "predicted": 285719.0
+    },
+    {
+      "actual": 409300.0,
+      "predicted": 381508.0
+    },
+    {
+      "actual": 117100.0,
+      "predicted": 116679.0
+    },
+    {
+      "actual": 336300.0,
+      "predicted": 395922.0
+    },
+    {
+      "actual": 216800.0,
+      "predicted": 230226.0
+    },
+    {
+      "actual": 390300.0,
+      "predicted": 341665.0
+    },
+    {
+      "actual": 338400.0,
+      "predicted": 348146.0
+    },
+    {
+      "actual": 237800.0,
+      "predicted": 237044.0
+    },
+    {
+      "actual": 314500.0,
+      "predicted": 333922.0
+    },
+    {
+      "actual": 853000.0,
+      "predicted": 775335.0
+    },
+    {
+      "actual": 178400.0,
+      "predicted": 164204.0
+    },
+    {
+      "actual": 447200.0,
+      "predicted": 430878.0
+    },
+    {
+      "actual": 643300.0,
+      "predicted": 716479.0
+    },
+    {
+      "actual": 129300.0,
+      "predicted": 130000.0
+    },
+    {
+      "actual": 601500.0,
+      "predicted": 642032.0
+    },
+    {
+      "actual": 157600.0,
+      "predicted": 164911.0
+    },
+    {
+      "actual": 304300.0,
+      "predicted": 281188.0
+    },
+    {
+      "actual": 621100.0,
+      "predicted": 612519.0
+    },
+    {
+      "actual": 696500.0,
+      "predicted": 628498.0
+    },
+    {
+      "actual": 277900.0,
+      "predicted": 288873.0
+    },
+    {
+      "actual": 159500.0,
+      "predicted": 163706.0
+    },
+    {
+      "actual": 407400.0,
+      "predicted": 376486.0
+    },
+    {
+      "actual": 496900.0,
+      "predicted": 484631.0
+    },
+    {
+      "actual": 168000.0,
+      "predicted": 175899.0
+    },
+    {
+      "actual": 256800.0,
+      "predicted": 256663.0
+    },
+    {
+      "actual": 618900.0,
+      "predicted": 634144.0
+    },
+    {
+      "actual": 121000.0,
+      "predicted": 115774.0
+    },
+    {
+      "actual": 321100.0,
+      "predicted": 283086.0
+    },
+    {
+      "actual": 251200.0,
+      "predicted": 218993.0
+    },
+    {
+      "actual": 172700.0,
+      "predicted": 165400.0
+    },
+    {
+      "actual": 170900.0,
+      "predicted": 153973.0
+    },
+    {
+      "actual": 531800.0,
+      "predicted": 484330.0
+    },
+    {
+      "actual": 325000.0,
+      "predicted": 280238.0
+    },
+    {
+      "actual": 348900.0,
+      "predicted": 358660.0
+    },
+    {
+      "actual": 327900.0,
+      "predicted": 328722.0
+    },
+    {
+      "actual": 122200.0,
+      "predicted": 120216.0
+    },
+    {
+      "actual": 224300.0,
+      "predicted": 218846.0
+    },
+    {
+      "actual": 130400.0,
+      "predicted": 145324.0
+    },
+    {
+      "actual": 122400.0,
+      "predicted": 135525.0
+    },
+    {
+      "actual": 117700.0,
+      "predicted": 121675.0
+    },
+    {
+      "actual": 244700.0,
+      "predicted": 234790.0
+    },
+    {
+      "actual": 246400.0,
+      "predicted": 245445.0
+    },
+    {
+      "actual": 331100.0,
+      "predicted": 329101.0
+    },
+    {
+      "actual": 650100.0,
+      "predicted": 667745.0
+    },
+    {
+      "actual": 139900.0,
+      "predicted": 129407.0
+    },
+    {
+      "actual": 677300.0,
+      "predicted": 598189.0
+    },
+    {
+      "actual": 219700.0,
+      "predicted": 224191.0
+    },
+    {
+      "actual": 733400.0,
+      "predicted": 687188.0
+    },
+    {
+      "actual": 175500.0,
+      "predicted": 163557.0
+    },
+    {
+      "actual": 327800.0,
+      "predicted": 319748.0
+    },
+    {
+      "actual": 235600.0,
+      "predicted": 222131.0
+    },
+    {
+      "actual": 632500.0,
+      "predicted": 661702.0
+    },
+    {
+      "actual": 84000.0,
+      "predicted": 84291.0
+    },
+    {
+      "actual": 479500.0,
+      "predicted": 518817.0
+    },
+    {
+      "actual": 297800.0,
+      "predicted": 277485.0
+    },
+    {
+      "actual": 570400.0,
+      "predicted": 560859.0
+    },
+    {
+      "actual": 526200.0,
+      "predicted": 559609.0
+    },
+    {
+      "actual": 181800.0,
+      "predicted": 180516.0
+    },
+    {
+      "actual": 77100.0,
+      "predicted": 74768.0
+    },
+    {
+      "actual": 519100.0,
+      "predicted": 482645.0
+    },
+    {
+      "actual": 412900.0,
+      "predicted": 390359.0
+    },
+    {
+      "actual": 423600.0,
+      "predicted": 392931.0
+    },
+    {
+      "actual": 359300.0,
+      "predicted": 376479.0
+    },
+    {
+      "actual": 232100.0,
+      "predicted": 247382.0
+    },
+    {
+      "actual": 494000.0,
+      "predicted": 590780.0
+    },
+    {
+      "actual": 477400.0,
+      "predicted": 480885.0
+    },
+    {
+      "actual": 437900.0,
+      "predicted": 378159.0
+    },
+    {
+      "actual": 115000.0,
+      "predicted": 126618.0
+    },
+    {
+      "actual": 702900.0,
+      "predicted": 751213.0
+    },
+    {
+      "actual": 494300.0,
+      "predicted": 514719.0
+    },
+    {
+      "actual": 641800.0,
+      "predicted": 696674.0
+    },
+    {
+      "actual": 420300.0,
+      "predicted": 413999.0
+    },
+    {
+      "actual": 348300.0,
+      "predicted": 315115.0
+    },
+    {
+      "actual": 163600.0,
+      "predicted": 165317.0
+    },
+    {
+      "actual": 398600.0,
+      "predicted": 429087.0
+    },
+    {
+      "actual": 66700.0,
+      "predicted": 71338.0
+    },
+    {
+      "actual": 297200.0,
+      "predicted": 308369.0
+    },
+    {
+      "actual": 148800.0,
+      "predicted": 156321.0
+    },
+    {
+      "actual": 91600.0,
+      "predicted": 90189.0
+    },
+    {
+      "actual": 280000.0,
+      "predicted": 255370.0
+    },
+    {
+      "actual": 291500.0,
+      "predicted": 334679.0
+    },
+    {
+      "actual": 169200.0,
+      "predicted": 153218.0
+    },
+    {
+      "actual": 459400.0,
+      "predicted": 415902.0
+    },
+    {
+      "actual": 118400.0,
+      "predicted": 111531.0
+    },
+    {
+      "actual": 709700.0,
+      "predicted": 717051.0
+    },
+    {
+      "actual": 515200.0,
+      "predicted": 472933.0
+    },
+    {
+      "actual": 212800.0,
+      "predicted": 221352.0
+    },
+    {
+      "actual": 318100.0,
+      "predicted": 336580.0
+    },
+    {
+      "actual": 174900.0,
+      "predicted": 186607.0
+    },
+    {
+      "actual": 167100.0,
+      "predicted": 190291.0
+    },
+    {
+      "actual": 517800.0,
+      "predicted": 481085.0
+    },
+    {
+      "actual": 270300.0,
+      "predicted": 246232.0
+    },
+    {
+      "actual": 240200.0,
+      "predicted": 256989.0
+    },
+    {
+      "actual": 297900.0,
+      "predicted": 327039.0
+    },
+    {
+      "actual": 271700.0,
+      "predicted": 255266.0
+    },
+    {
+      "actual": 231800.0,
+      "predicted": 231912.0
+    },
+    {
+      "actual": 558800.0,
+      "predicted": 540605.0
+    },
+    {
+      "actual": 643500.0,
+      "predicted": 584693.0
+    },
+    {
+      "actual": 554800.0,
+      "predicted": 594142.0
+    },
+    {
+      "actual": 290000.0,
+      "predicted": 284663.0
+    },
+    {
+      "actual": 356200.0,
+      "predicted": 359472.0
+    },
+    {
+      "actual": 399100.0,
+      "predicted": 375692.0
+    },
+    {
+      "actual": 570700.0,
+      "predicted": 537485.0
+    },
+    {
+      "actual": 174900.0,
+      "predicted": 177488.0
+    },
+    {
+      "actual": 404100.0,
+      "predicted": 383266.0
+    },
+    {
+      "actual": 209400.0,
+      "predicted": 187406.0
+    },
+    {
+      "actual": 327200.0,
+      "predicted": 308434.0
+    },
+    {
+      "actual": 248800.0,
+      "predicted": 239167.0
+    },
+    {
+      "actual": 505100.0,
+      "predicted": 482632.0
+    },
+    {
+      "actual": 163300.0,
+      "predicted": 160635.0
+    },
+    {
+      "actual": 609000.0,
+      "predicted": 592228.0
+    },
+    {
+      "actual": 178000.0,
+      "predicted": 168878.0
+    },
+    {
+      "actual": 309200.0,
+      "predicted": 337239.0
+    },
+    {
+      "actual": 543400.0,
+      "predicted": 674696.0
+    },
+    {
+      "actual": 120400.0,
+      "predicted": 111022.0
+    },
+    {
+      "actual": 365800.0,
+      "predicted": 370533.0
+    },
+    {
+      "actual": 595400.0,
+      "predicted": 584670.0
+    },
+    {
+      "actual": 253600.0,
+      "predicted": 262236.0
+    },
+    {
+      "actual": 768400.0,
+      "predicted": 725684.0
+    },
+    {
+      "actual": 181800.0,
+      "predicted": 224584.0
+    },
+    {
+      "actual": 237400.0,
+      "predicted": 241123.0
+    },
+    {
+      "actual": 660800.0,
+      "predicted": 555666.0
+    },
+    {
+      "actual": 207500.0,
+      "predicted": 191895.0
+    },
+    {
+      "actual": 91000.0,
+      "predicted": 99198.0
+    },
+    {
+      "actual": 79500.0,
+      "predicted": 85721.0
+    },
+    {
+      "actual": 251200.0,
+      "predicted": 275766.0
+    },
+    {
+      "actual": 226900.0,
+      "predicted": 215337.0
+    },
+    {
+      "actual": 317800.0,
+      "predicted": 303914.0
+    },
+    {
+      "actual": 713700.0,
+      "predicted": 693732.0
+    },
+    {
+      "actual": 285800.0,
+      "predicted": 321744.0
+    },
+    {
+      "actual": 271500.0,
+      "predicted": 253703.0
+    },
+    {
+      "actual": 179900.0,
+      "predicted": 209565.0
+    },
+    {
+      "actual": 219900.0,
+      "predicted": 225110.0
+    },
+    {
+      "actual": 1038200.0,
+      "predicted": 988541.0
+    },
+    {
+      "actual": 295000.0,
+      "predicted": 261619.0
+    },
+    {
+      "actual": 169200.0,
+      "predicted": 174481.0
+    },
+    {
+      "actual": 256800.0,
+      "predicted": 270931.0
+    },
+    {
+      "actual": 283200.0,
+      "predicted": 275702.0
+    },
+    {
+      "actual": 208900.0,
+      "predicted": 222415.0
+    },
+    {
+      "actual": 221000.0,
+      "predicted": 233418.0
+    },
+    {
+      "actual": 291200.0,
+      "predicted": 312040.0
+    },
+    {
+      "actual": 372600.0,
+      "predicted": 393046.0
+    },
+    {
+      "actual": 244900.0,
+      "predicted": 252234.0
+    }
+  ],
+  "price_vs_age": [
+    {
+      "car_age": 2,
+      "avg_price": 752223.0
+    },
+    {
+      "car_age": 3,
+      "avg_price": 637964.0
+    },
+    {
+      "car_age": 4,
+      "avg_price": 657800.0
+    },
+    {
+      "car_age": 5,
+      "avg_price": 579360.0
+    },
+    {
+      "car_age": 6,
+      "avg_price": 527662.0
+    },
+    {
+      "car_age": 7,
+      "avg_price": 485505.0
+    },
+    {
+      "car_age": 8,
+      "avg_price": 429956.0
+    },
+    {
+      "car_age": 9,
+      "avg_price": 383722.0
+    },
+    {
+      "car_age": 10,
+      "avg_price": 332602.0
+    },
+    {
+      "car_age": 11,
+      "avg_price": 314801.0
+    },
+    {
+      "car_age": 12,
+      "avg_price": 274898.0
+    },
+    {
+      "car_age": 13,
+      "avg_price": 291428.0
+    },
+    {
+      "car_age": 14,
+      "avg_price": 261431.0
+    },
+    {
+      "car_age": 15,
+      "avg_price": 213175.0
+    },
+    {
+      "car_age": 16,
+      "avg_price": 202607.0
+    },
+    {
+      "car_age": 17,
+      "avg_price": 195055.0
+    },
+    {
+      "car_age": 18,
+      "avg_price": 160650.0
+    },
+    {
+      "car_age": 19,
+      "avg_price": 193658.0
+    },
+    {
+      "car_age": 20,
+      "avg_price": 163668.0
+    }
+  ],
+  "price_by_brand": [
+    {
+      "brand": "Mercedes-Benz",
+      "avg_price": 987068.0
+    },
+    {
+      "brand": "Audi",
+      "avg_price": 917950.0
+    },
+    {
+      "brand": "Bmw",
+      "avg_price": 799485.0
+    },
+    {
+      "brand": "Toyota",
+      "avg_price": 623567.0
+    },
+    {
+      "brand": "Mg",
+      "avg_price": 584266.0
+    },
+    {
+      "brand": "Skoda",
+      "avg_price": 536712.0
+    },
+    {
+      "brand": "Mahindra",
+      "avg_price": 491949.0
+    },
+    {
+      "brand": "Kia",
+      "avg_price": 489572.0
+    },
+    {
+      "brand": "Volkswagen",
+      "avg_price": 423135.0
+    },
+    {
+      "brand": "Honda",
+      "avg_price": 414226.0
+    },
+    {
+      "brand": "Ford",
+      "avg_price": 387283.0
+    },
+    {
+      "brand": "Tata",
+      "avg_price": 381077.0
+    },
+    {
+      "brand": "Hyundai",
+      "avg_price": 312391.0
+    },
+    {
+      "brand": "Nissan",
+      "avg_price": 245508.0
+    },
+    {
+      "brand": "Renault",
+      "avg_price": 237495.0
+    },
+    {
+      "brand": "Maruti",
+      "avg_price": 222653.0
+    },
+    {
+      "brand": "Chevrolet",
+      "avg_price": 164873.0
+    },
+    {
+      "brand": "Other",
+      "avg_price": 144853.0
+    }
+  ],
+  "price_by_fuel": [
+    {
+      "fuel": "Diesel",
+      "avg_price": 382444.0
+    },
+    {
+      "fuel": "Electric",
+      "avg_price": 373486.0
+    },
+    {
+      "fuel": "Petrol",
+      "avg_price": 358843.0
+    },
+    {
+      "fuel": "CNG",
+      "avg_price": 340082.0
+    },
+    {
+      "fuel": "LPG",
+      "avg_price": 330592.0
+    }
+  ]
+}

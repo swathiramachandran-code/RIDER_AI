@@ -1,0 +1,43 @@
+{
+  "brands": [
+    "Audi",
+    "Bmw",
+    "Chevrolet",
+    "Ford",
+    "Honda",
+    "Hyundai",
+    "Kia",
+    "Mahindra",
+    "Maruti",
+    "Mercedes-Benz",
+    "Mg",
+    "Nissan",
+    "Renault",
+    "Skoda",
+    "Tata",
+    "Toyota",
+    "Volkswagen",
+    "Other"
+  ],
+  "fuels": [
+    "CNG",
+    "Diesel",
+    "Electric",
+    "LPG",
+    "Petrol"
+  ],
+  "transmissions": [
+    "Automatic",
+    "Manual"
+  ],
+  "owners": [
+    "First Owner",
+    "Second Owner",
+    "Third Owner",
+    "Fourth & Above Owner"
+  ],
+  "year_min": 2006,
+  "year_max": 2024,
+  "current_year": 2026,
+  "km_max": 300000
+}
