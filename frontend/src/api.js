@@ -8,7 +8,8 @@ const getBaseUrl = () => {
     const host = window.location.hostname;
     if (host === '127.0.0.1') return 'http://127.0.0.1:8000';
     if (host === 'localhost') return 'http://localhost:8000';
-    if (host) return `http://${host}:8000`;
+    // When running in production (e.g. deployed on Render), use the current origin
+    return window.location.origin;
   }
   return 'http://127.0.0.1:8000';
 };

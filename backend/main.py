@@ -7,8 +7,11 @@ import logging
 from contextlib import asynccontextmanager
 from typing import Optional, List, Dict, Any
 
+from pathlib import Path
 from fastapi import FastAPI, Depends, HTTPException, Query, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 from sqlalchemy import or_
 
@@ -529,3 +532,30 @@ def clear_all_history(db: Session = Depends(get_db)):
     db.commit()
     logger.info(f"Cleared all history records ({count} rows deleted)")
     return MessageResponse(message="All prediction history cleared successfully.", count=count)
+
+
+# Mount static assets and serve SPA frontend when built (e.g. Render production deployment)
+FRONTEND_DIST = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+if FRONTEND_DIST.exists():
+    assets_dir = FRONTEND_DIST / "assets"
+    if assets_dir.exists():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")
+
+    @app.get("/", include_in_schema=False)
+    async def serve_root():
+        return FileResponse(FRONTEND_DIST / "index.html")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    async def serve_spa(full_path: str):
+        # Do not intercept API docs or existing endpoints
+        api_prefixes = (
+            "docs", "redoc", "openapi.json", "health", "metadata",
+            "model-info", "predict", "forecast", "compare", "recommendations", "history"
+        )
+        if full_path and any(full_path == prefix or full_path.startswith(f"{prefix}/") for prefix in api_prefixes):
+            raise HTTPException(status_code=404, detail="Not Found")
+
+        file_path = FRONTEND_DIST / full_path
+        if full_path and file_path.is_file():
+            return FileResponse(file_path)
+        return FileResponse(FRONTEND_DIST / "index.html")
